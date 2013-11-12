@@ -40,7 +40,8 @@ This will
 Open up `ruby.html` to see your planet web page. Voila!
 
 
-<!--  add image here -->
+<a href="http://plutolive.herokuapp.com"><img src="i/pluto.png"></a>
+
 
 ### Bonus: Try some different templates/theme packs
 
@@ -104,22 +105,23 @@ For more samples, see [`nytimes.ini`](https://github.com/feedreader/pluto.sample
 
 
 
-## Real World Usage
+## Real World Usage  
 
 [`pluto.live`](https://github.com/feedreader/pluto.live) - sample planet site; sinatra web app/starter template in ruby using the pluto gem
+
 
 
 ## What's Planet Planet? What's Venus? What's Mars?  {#planet}
 
 Alternatives
 
-### Python
+#### Python
 
 Planet Planet by Scott James Remnant and Jeff Waugh [(Site)](http://www.planetplanet.org)  - uses Mark Pilgrim's universal feed parser (RDF, RSS and Atom) and Tomas Styblo's templating engine; last release version 2.0 in 2006
 
 Planet Venus by Sam Ruby [(Site)](https://github.com/rubys/venus) - cleaned up Planet Planet code; last change in 2010
 
-### Ruby
+#### Ruby
 
 Planet Mars by Sam Ruby [(Site)](https://github.com/rubys/mars) -  first draft of cleaned up Planet Planet code; last change in 2008
 
