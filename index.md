@@ -10,7 +10,6 @@ Contents:
 
 * [What's Pluto?](#whatis)
 * [Getting Started](#start)
-* [What's Planet Planet? What's Venus? What's Mars?](#planet)
 * [About, License - Questions? Comments?](#about)
 </div>
 
@@ -109,23 +108,6 @@ For more samples, see [`nytimes.ini`](https://github.com/feedreader/pluto.sample
 
 [`pluto.live`](https://github.com/feedreader/pluto.live) - sample planet site; sinatra web app/starter template in ruby using the pluto gem
 
-
-
-## What's Planet Planet? What's Venus? What's Mars?  {#planet}
-
-Alternatives
-
-#### Python
-
-Planet Planet by Scott James Remnant and Jeff Waugh [(Site)](http://www.planetplanet.org)  - uses Mark Pilgrim's universal feed parser (RDF, RSS and Atom) and Tomas Styblo's templating engine; last release version 2.0 in 2006
-
-Planet Venus by Sam Ruby [(Site)](https://github.com/rubys/venus) - cleaned up Planet Planet code; last change in 2010
-
-#### Ruby
-
-Planet Mars by Sam Ruby [(Site)](https://github.com/rubys/mars) -  first draft of cleaned up Planet Planet code; last change in 2008
-
-and many others.
 
 
 ## About, License   {#about}
