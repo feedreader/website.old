@@ -18,7 +18,7 @@ Contents:
 
 ## What's Pluto?   {#whatis}
 
-A planet generator in ruby that lets you build web pages from published web feeds.
+A planet site generator in ruby that lets you build web pages from published web feeds.
 
 
 ## Getting Started    {#start}
