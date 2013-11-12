@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <title>{{ page.title }} - Pluto - Another Planet Generator in Ruby</title>
+   <link rel="stylesheet" href="css/pluto.css" type="text/css">
+  <!--
+    <link rel="icon"       href="i/favicon.png"   type="image/png">
+   -->
+
+
+</head>
+<body>
+
+  <div id="header">
+    <span class='big'>Pluto</span>
+    <span class='small'>a free planet generator (for building web pages from published web feeds)</span>
+  </div>
+
+  <div id="nav">
+   
+    <a href="index.html">Home</a> |
+    <a href="command.html">Command Line Reference</a> |
+    <a href="gallery.html">Template Pack Gallery</a> | 
+    <a href='template.html'>Template Reference</a> |
+    <a href='template.html'>Demo (Pluto Live)</a> |
+    <a href="http://groups.google.com/group/feedreader">What's New? &middot; Forum (Questions? Comments?)</a> |
+
+    <a href="https://github.com/feedreader">Code, Repo</a>
+  </div>
+    
+    <div id="content">
+      {{ content }}
+      
+      {% include editme.html %}
+    </div>
+
+</body>
+</html>
