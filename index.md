@@ -37,20 +37,20 @@ This will
 
 2) store all entries in a local database, that is, `ruby.db` in your working folder and
 
-3) generate a planet web page, that is, `ruby.html` using the [`blank` template pack](https://github.com/feedreader/pluto.blank) in your working folder using all feed entries from the local database.
+3) generate a planet web page, that is, `ruby.html` using the [`blank` template pack](https://github.com/planet-templates/planet-blank) in your working folder using all feed entries from the local database.
 
 Open up `ruby.html` to see your planet web page. Voila!
 
 
-<a href="http://plutolive.herokuapp.com"><img src="i/pluto.png"></a>
+![](i/pluto.png)
 
 
 ### Bonus: Try some different templates/theme packs
 
-- Blank - default templates; [more »](https://github.com/feedreader/pluto.blank)
-- News - 'river of news' style templates; [more »](https://github.com/feedreader/pluto.news)
-- Top -  Popurl-style templates; [more »](https://github.com/feedreader/pluto.top)
-- Classic -  Planet Planet-Style templates; [more »](https://github.com/feedreader/pluto.classic)
+- Blank - default templates; [more »](https://github.com/planet-templates/planet-blank)
+- News - 'river of news' style templates; [more »](https://github.com/planet-templates/planet-news)
+- Top -  Popurl-style templates; [more »](https://github.com/planet-templates/planet-top)
+- Classic -  Planet Planet-Style templates; [more »](https://github.com/planet-templates/planet-classic)
 
 
 ## Planet Configuration Sample   {#config}
@@ -60,36 +60,33 @@ Open up `ruby.html` to see your planet web page. Voila!
 ~~~
 title = Planet Ruby
 
-[rubyflow]
-  title  = Ruby Flow
-  link   = http://rubyflow.com
-  feed   = http://feeds.feedburner.com/Rubyflow?format=xml
+[rubylang]
+  title = Ruby Lang News
+  link  = http://www.ruby-lang.org/en/news
+  feed  = http://www.ruby-lang.org/en/feeds/news.rss
 
 [rubyonrails]
-  title = Ruby on Rails Blog
+  title = Ruby on Rails News
   link  = http://weblog.rubyonrails.org
   feed  = http://weblog.rubyonrails.org/feed/atom.xml
 
 [viennarb]
-  title = vienna.rb Blog
+  title = Vienna.rb News
   link  = http://vienna-rb.at
   feed  = http://vienna-rb.at/atom.xml
+
 ~~~
 
-For more samples, see [`nytimes.ini`](https://github.com/feedreader/pluto.samples/blob/master/nytimes.ini),
-[`js.ini`](https://github.com/feedreader/pluto.samples/blob/master/js.ini),
-[`dart.ini`](https://github.com/feedreader/pluto.samples/blob/master/dart.ini),
-[`haskell.ini`](https://github.com/feedreader/pluto.samples/blob/master/haskell.ini),
-[`viennarb.ini`](https://github.com/feedreader/pluto.samples/blob/master/viennarb.ini),
-[`beer.ini`](https://github.com/feedreader/pluto.samples/blob/master/beer.ini),
-[`football.ini`](https://github.com/feedreader/pluto.samples/blob/master/football.ini).
+For more samples, see
+[`nytimes.ini`](https://github.com/feedreader/planets/blob/master/nytimes.ini),
+[`js.ini`](https://github.com/feedreader/planet-web/blob/master/js.ini),
+[`dart.ini`](https://github.com/feedreader/planet-web/blob/master/dart.ini),
+[`haskell.ini`](https://github.com/feedreader/planets/blob/master/haskell.ini).
 
 
+## Real World Usage - Live Demos
 
-## Real World Usage  
-
-[`pluto.live`](https://github.com/feedreader/pluto.live) - sample planet site; sinatra web app in ruby using the pluto gem
-
+See the [Planetarium](https://github.com/feedreader/planets) for live planets.
 
 
 ## About, License   {#about}
