@@ -2,6 +2,11 @@
 
 markdown: kramdown
 
+###
+# try jekyll-redirect-from gem
+gems:
+  - jekyll-redirect-from
+
 
 exclude:
   - README.md
