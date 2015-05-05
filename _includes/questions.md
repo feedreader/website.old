@@ -2,5 +2,5 @@
 ## Questions? Comments? {#questions}
 
 Questions? Comments? Send them along to the
-[Planet Feed Reader - Pluto and Friends Forum/Mailing List](http://groups.google.com/group/feedreader).
+[wwwmake mailing list/forum](http://groups.google.com/group/wwwmake).
 Thanks!
