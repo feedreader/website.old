@@ -28,3 +28,12 @@
   - title: Embedded Ruby (ERB) Templates
   - title: Site
   - title: Feed
+
+- title: 3.1. Planet Planet <=> Pluto - Template Cheatsheet
+  path:  templates-classic.md
+
+- title: "4. Commands, Commands, Commands"
+  path:  commands.md
+
+- title: 5. About
+  path:  about.md
