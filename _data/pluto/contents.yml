@@ -31,9 +31,20 @@
 
 - title: 3.1. Planet Planet <=> Pluto - Template Cheatsheet
   path:  templates-classic.md
+  sections:
+  - title: What's Planet Planet?
 
 - title: "4. Commands, Commands, Commands"
   path:  commands.md
+  sections:
+  - title: build Command
+  - title: list Command
+  - title: install Command
+  - title: update Command
+  - title: merge Command
 
 - title: 5. About
   path:  about.md
+  sections:
+  - title: License
+  - title: Questions? Comments?
