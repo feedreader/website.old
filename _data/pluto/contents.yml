@@ -11,7 +11,20 @@
     - title: Step 2 - Auto-build your planet news site
     - title: "Bonus: Try different templates/theme packs"
 
+- title: 1.1. top - Planet Template Pack
+  path:  planet-top.md
+
+- title: 1.2. digest - Planet Template Pack
+  path:  planet-digest.md
+
 - title: 2. Planet Configuration
   path:  config.md
   sections:
   - title: Planet configuration samples
+
+- title: 3. Create Your Own Templates
+  path:  templates.md
+  sections:
+  - title: Embedded Ruby (ERB) Templates
+  - title: Site
+  - title: Feed
