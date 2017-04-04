@@ -1,0 +1,3 @@
+[submodule "_pluto"]
+	path = _pluto
+	url = https://github.com/feedreader/docs.git
