@@ -1,6 +1,14 @@
 
-
 markdown: kramdown
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+sass:
+  sass_dir: css
+  style: expanded
+
 
 ###
 # try jekyll-redirect-from gem
@@ -14,4 +22,3 @@ exclude:
 
 safe: true
 lsi: false
-
