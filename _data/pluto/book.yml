@@ -1,4 +1,71 @@
+######################################
+#   Meta Book Info / Front Matter
 
-title:   "Pluto Planet Guide (Book Edition)"
+title:     "Pluto Planet Guide (Book Edition)"
+subtitle:  "Free Planet (Static) Website Generator - Auto-Build Web Pages From Published Web Feeds"
+
 author:
-  name:  "Gerald Bauer, et al"
+  name:    "Gerald Bauer, et al"
+
+
+
+###########################
+##   Extras
+
+github:
+  url: https://github.com/feedreader/docs
+
+
+
+
+######################
+#  Table of Contents
+
+contents:
+- title: 1. Getting Started - What's Pluto?
+  path:  getting-started.md
+  sections:
+  - title: What's Pluto?
+  - title: Getting Started
+    sections:
+    - title: Step 1 - Add all web feeds to your planet configuration
+    - title: Step 2 - Auto-build your planet news site
+    - title: "Bonus: Try different templates/theme packs"
+
+- title: 1.1. top - Planet Template Pack
+  path:  planet-top.md
+
+- title: 1.2. digest - Planet Template Pack
+  path:  planet-digest.md
+
+- title: 2. Planet Configuration
+  path:  config.md
+  sections:
+  - title: Planet configuration samples
+
+- title: 3. Create Your Own Templates
+  path:  templates.md
+  sections:
+  - title: Embedded Ruby (ERB) Templates
+  - title: Site
+  - title: Feed
+
+- title: 3.1. Planet Planet <=> Pluto - Template Cheatsheet
+  path:  templates-classic.md
+  sections:
+  - title: What's Planet Planet?
+
+- title: "4. Commands, Commands, Commands"
+  path:  commands.md
+  sections:
+  - title: build Command
+  - title: list Command
+  - title: install Command
+  - title: update Command
+  - title: merge Command
+
+- title: 5. About
+  path:  about.md
+  sections:
+  - title: License
+  - title: Questions? Comments?

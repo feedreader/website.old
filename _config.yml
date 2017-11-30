@@ -1,3 +1,17 @@
+##################
+# site settings
+
+home:
+  url:   https://github.com/feedreader
+  title: Pluto @ GitHub
+
+style:
+  link_color:   '#8b0000'    # use ruby-ish red
+
+
+
+###########################
+# build settings
 
 markdown: kramdown
 
@@ -6,19 +20,13 @@ kramdown:
   hard_wrap: false
 
 sass:
-  sass_dir: css
   style: expanded
-
-
-###
-# try jekyll-redirect-from gem
-gems:
-  - jekyll-redirect-from
 
 
 exclude:
   - README.md
 
+plugins:
+- jekyll-remote-theme
 
-safe: true
-lsi: false
+remote_theme: octobook/books-twentyeighteen-theme
